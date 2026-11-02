@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=screen-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+  <link rel="stylesheet" href="styles.css">
+  <title>My Portfolio</title>
+</head> 
+<body> 
+  <!-- Navigation -->
+  <nav>
+  <div class="left">
+    <a href="/">Prakash Tamang</a>
+  </div>
+
+  <div class="right">
+    <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-github"></i>
+      <span>GitHub</span>
+    </a>
+
+    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-linkedin"></i>
+      <span>LinkedIn</span>
+    </a>
+
+    <a href="mailto:prakash@example.com">
+      <i class="fa-solid fa-envelope"></i> 
+      <span>Email</span>
+    </a>
+  </div>
+  </nav>
+  
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="text">
+        <h2> Hi! I am <span>Prakash Tamang</span> ✌️</h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aspernatur ex quod laudantium saepe quos, neque fuga sunt molestiae! Architecto dolores, consequuntur qui explicabo, cupiditate ab incidunt ipsum ad quisquam optio veniam dolorum laudantium cumque suscipit aspernatur minima facere laborum perspiciatis, quod reiciendis enim! Aliquam itaque vero saepe laboriosam sequi.</p>
+        
+        <div class="links">
+
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+
+          <a href="#testimony">
+            <i class="fa-solid fa-pen-clip"></i>
+            <span>testimony</span>
+          </a>
+ 
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="headshot">
+        <img src="./Portfolio_logo/MY PIC.webp" alt="Headshot of Prakash Tamang">
+      </div>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aspernatur ex quod laudantium saepe quos, neque fuga sunt molestiae! Architecto dolores, consequuntur qui explicabo, cupiditate ab incidunt ipsum ad quisquam optio veniam dolorum laudantium cumque suscipit aspernatur minima facere laborum perspiciatis, quod reiciendis enim! Aliquam itaque vero saepe laboriosam sequi.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="./Portfolio_logo/html-logo.webp" alt="HTML5 Logo">
+          <span>HTML5</span>
+        </div>
+
+        <div class="cell">
+          <img src="./Portfolio_logo/css-logo.webp" alt="CSS Logo">
+          <span>CSS</span> 
+        </div>
+
+        <div class="cell">
+          <img src="./Portfolio_logo/javascript-logo.webp" alt="JavaScript Logo">
+          <span>JavaScript</span>
+        </div>
+
+        <div class="cell">
+          <img src="./Portfolio_logo/react-logo.webp" alt="React Logo">
+          <span>React</span>
+        </div>
+
+        <div class="cell">
+          <img src="./Portfolio_logo/node-logo.webp" alt="Node.js Logo">
+          <span>Node.js</span>
+      </div>
+       
+    </section>
+
+    <!-- Testimony Section -->
+    <section id="testimony" class ="testimony-section">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="./Portfolio_logo/pema.webp" alt="Person Image">
+          <p>Pema Dhundup Lama</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <div class="text">    
+         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aspernatur ex quod laudantium saepe quos, neque fuga sunt molestiae! Architecto dolores, consequuntur qui explicabo, cupiditate ab incidunt ipsum ad quisquam optio veniam dolorum laudantium cumque suscipit aspernatur minima facere laborum perspiciatis, quod reiciendis enim! Aliquam itaque vero saepe laboriosam sequi."
+        </div>
+      </div>  
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+      <div class="group">
+        <div class="text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae inventore quas blanditiis excepturi ad sed consectetur pariatur ipsa ut eveniet ducimus cupiditate totam earum error tenetur officia sequi fuga eum rerum reprehenderit, voluptates officiis voluptate. Vitae, aliquid. Labore rerum aperiam ea iusto esse cum voluptatum, veritatis provident vero. Maiores, alias. </p>
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id = "name" placeholder="Your Name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Your Email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
